@@ -1,0 +1,19 @@
+package com.cos.blog.model;
+
+import lombok.Data;
+
+@Data
+public class Test1 {
+	boolean jump = false;
+	
+	
+	public static void main(String[] args) {
+		Test1 광열 = new Test1();
+		
+		if(광열.isJump()) {
+			System.out.println("점프중");
+		} else {
+			System.out.println("가만히있는중");
+		}
+	}
+}

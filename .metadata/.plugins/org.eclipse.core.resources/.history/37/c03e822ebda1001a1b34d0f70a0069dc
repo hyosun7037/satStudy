@@ -1,0 +1,15 @@
+
+public class Test1 {
+	
+	static void hello() {
+		
+		int a = 10;
+		
+		System.out.println(a);
+		
+	}
+	
+	public static void main(String[] args) {
+		hello();
+	}
+}

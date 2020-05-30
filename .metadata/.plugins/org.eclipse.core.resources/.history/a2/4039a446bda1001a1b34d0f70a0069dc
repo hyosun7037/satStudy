@@ -1,0 +1,17 @@
+
+public class Test1 {
+	
+	static int hello() {
+		
+		int a = 10;
+		
+		System.out.println(a);
+		
+		return a;
+		
+	}
+	
+	public static void main(String[] args) {
+		hello();
+	}
+}
